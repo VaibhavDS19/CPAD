@@ -180,7 +180,7 @@ class _DateAndTimeState extends State<DateAndTime> {
                   ],
                 )),
                 Container(
-                  height: 80,
+                  height: 60,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(10),
                     color: Colors.white,
@@ -222,7 +222,7 @@ class _DateAndTimeState extends State<DateAndTime> {
                 ),
                 //SizedBox(height: 10,),
                 FadeAnimation(1.2, Container(
-                  height: 60,
+                  height: 40,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(10),
                     color: Colors.white,

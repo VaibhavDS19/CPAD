@@ -124,9 +124,9 @@ class _CleaningPageState extends State<CleaningPage> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    SizedBox(height: 20.0,),
+                    SizedBox(height: 5.0,),
                     Text("How many ${room[0]}s?", style: TextStyle(fontSize: 15),),
-                    SizedBox(height: 10.0,),
+                    SizedBox(height: 5.0,),
                     Container(
                       height: 45,
                       child: ListView.builder(
