@@ -42,7 +42,7 @@ class _StartPageState extends State<StartPage> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return Flexible(child: Scaffold(
         body: Column(
           children: [
             const SizedBox(height: 100,),
@@ -139,7 +139,7 @@ class _StartPageState extends State<StartPage> {
             )
           ],
         )
-    );
+    ));
   }
 
   serviceContainer(String image, String name, int index) {

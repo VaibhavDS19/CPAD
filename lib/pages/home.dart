@@ -92,18 +92,18 @@ class _HomePageState extends State<HomePage> {
                                   borderRadius: BorderRadius.circular(15.0),
                                   child: Image.network('https://images.pexels.com/photos/355164/pexels-photo-355164.jpeg?crop=faces&fit=crop&h=200&w=200&auto=compress&cs=tinysrgb', width: 70,)
                               ),
-                              SizedBox(width: 15,),
+                              // SizedBox(width: 15,),
                               Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Text("Isabel Kirkland", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
-                                  SizedBox(height: 5,),
+                                  // SizedBox(height: 5,),
                                   Text("Cleaner", style: TextStyle(color: Colors.black.withOpacity(0.7), fontSize: 18),),
                                 ],
                               )
                             ],
                           ),
-                          SizedBox(height: 20,),
+                          // SizedBox(height: 20,),
                           Container(
                             height: 50,
                             decoration: BoxDecoration(
@@ -116,7 +116,7 @@ class _HomePageState extends State<HomePage> {
                       ),
                     ),
                   )),
-                  SizedBox(height: 20,),
+                  // SizedBox(height: 20,),
                   FadeAnimation(1.3, Padding(
                     padding: EdgeInsets.only(left: 20.0, right: 10.0),
                     child: Row(
